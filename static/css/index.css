@@ -973,7 +973,7 @@ a:focus {
   position: relative;
   background: url('/static/images/jeju.jpg') center/cover no-repeat;
   color: white;
-  min-height: 70vh;
+  min-height: 60vh;
 }
 
 .hero-main::before {
@@ -992,7 +992,7 @@ a:focus {
   align-items: center; 
   text-align: center; 
 
-  min-height: 70vh;
+  min-height: 60vh;
 }
 
 .hero-main h1,
