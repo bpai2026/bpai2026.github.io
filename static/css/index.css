@@ -971,7 +971,7 @@ a:focus {
 
 .hero-main {
   position: relative;
-  background: url('../images/jeju.jpg') center/cover no-repeat;
+  background: url('/static/images/jeju.jpg') center/cover no-repeat;
   color: white;
   min-height: 70vh;
 }
