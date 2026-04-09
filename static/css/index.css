@@ -968,3 +968,35 @@ a:focus {
   max-width: 1200px;
   margin: auto;
 }
+
+.hero-main {
+  position: relative;
+  background: url('../images/jeju.jpg') center/cover no-repeat;
+  color: white;
+  min-height: 70vh;
+}
+
+.hero-main::before {
+  content: '';
+  position: absolute;
+  inset: 0;
+  background: rgba(0,0,0,0.35);
+}
+
+.hero-main .hero-body {
+  position: relative;
+  z-index: 1;
+
+  display: flex;
+  justify-content: center; 
+  align-items: center; 
+  text-align: center; 
+
+  min-height: 70vh;
+}
+
+.hero-main h1,
+.hero-main h4,
+.hero-main .publication-authors {
+  color: #ffffff !important;
+}
