@@ -1000,3 +1000,27 @@ a:focus {
 .hero-main .publication-authors {
   color: #ffffff !important;
 }
+
+.schedule-notice {
+  margin: 1.5rem auto 2rem auto;
+  max-width: 720px;
+  padding: 1rem 1.5rem;
+  background: #fff5f7;
+  border: 1px solid #f5b5c5;
+  border-radius: var(--border-radius-lg);
+  text-align: center;
+  color: #c2185b;
+  font-weight: 700;
+  font-size: 1.05rem;
+  box-shadow: var(--shadow-sm);
+  transition: var(--transition);
+}
+
+.schedule-notice strong {
+  font-weight: 800;
+}
+
+.schedule-notice:hover {
+  transform: translateY(-2px);
+  box-shadow: var(--shadow-md);
+}
