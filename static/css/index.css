@@ -1002,21 +1002,24 @@ a:focus {
 }
 
 .schedule-notice {
-  margin: 1.5rem auto 2rem auto;
-  max-width: 720px;
+  margin: 1.2rem auto 2rem auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.45rem;
   padding: 1rem 1.5rem;
-  background: #fff5f7;
-  border: 1px solid #f5b5c5;
+  background: #fffafb;
+  border: 1px solid #f3d4dc;
   border-radius: var(--border-radius-lg);
-  text-align: center;
-  color: #c2185b;
-  font-weight: 700;
+  color: #be185d;
   font-size: 1.05rem;
+  font-weight: 600;
+  line-height: 1.4;
   box-shadow: var(--shadow-sm);
-  transition: var(--transition);
 }
 
 .schedule-notice strong {
+  color: var(--text-primary);
   font-weight: 800;
 }
 
