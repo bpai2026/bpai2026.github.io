@@ -1016,6 +1016,7 @@ a:focus {
   font-weight: 600;
   line-height: 1.4;
   box-shadow: var(--shadow-sm);
+  max-width: 1200px;
 }
 
 .schedule-notice strong {
