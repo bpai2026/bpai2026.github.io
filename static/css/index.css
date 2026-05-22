@@ -847,7 +847,6 @@ a:focus {
 
 .faq-question {
   font-weight: 600;
-  cursor: pointer;
   position: relative;
 }
 
@@ -857,36 +856,21 @@ a:focus {
   color: #2563eb;
 }
 
-.faq-question::after {
-  content: '+';
-  position: absolute;
-  right: 0;
-  color: var(--text-light);
-}
-
 .faq-answer {
-  display: none;
+  display: block;
   margin-top: 10px;
   padding: 10px 12px;
   background: var(--background-accent);
   border-radius: var(--border-radius);
   color: var(--text-secondary);
   line-height: 1.6;
-  border-left: 3px solid var(--primary-color);
+  border-left: 2px solid #93c5fd;
 }
 
 .faq-answer::before {
   content: "A. ";
   font-weight: 700;
   color: #10b981;
-}
-
-.faq-item.active .faq-answer {
-  display: block;
-}
-
-.faq-item.active .faq-question::after {
-  content: '-';
 }
 
 .committee-title {
