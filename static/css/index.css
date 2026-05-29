@@ -1006,4 +1006,6 @@ a:focus {
 .schedule-notice strong {
   color: var(--text-primary);
   font-weight: 800;
+  display: block;
+  margin-top: 12px;
 }
