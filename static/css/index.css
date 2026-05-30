@@ -767,7 +767,12 @@ a:focus {
   transition: var(--transition);
 }
 
-.schedule-item:hover {
+.schedule-item.past {
+  opacity: 0.35;
+  background: #fafafa;
+}
+
+.schedule-item:not(.past):hover {
   background: var(--background-accent);
   padding-left: 1rem;
 }
