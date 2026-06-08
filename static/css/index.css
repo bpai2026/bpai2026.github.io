@@ -809,6 +809,11 @@ a:focus {
   background: var(--background-accent);
 }
 
+.program-table td:first-child {
+  text-align: left !important;
+  font-variant-numeric: tabular-nums;
+}
+
 .content h4 {
   font-size: 1.2rem;
   font-weight: 700;
@@ -954,7 +959,7 @@ a:focus {
 }
 
 .schedule-list, .program-table, .content.has-text-justified {
-  max-width: 1200px;
+  max-width: 1300px;
   margin: auto;
 }
 
